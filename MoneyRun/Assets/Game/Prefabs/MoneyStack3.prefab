@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1119831978592279524}
   - component: {fileID: 5422035668616250432}
+  - component: {fileID: 755961120177806273}
   m_Layer: 0
   m_Name: MoneyStack3
   m_TagString: Untagged
@@ -48,6 +49,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.6514816, y: 0.6320128, z: 0.66929626}
   m_Center: {x: -0.05835104, y: 0.18399361, z: 0.03592336}
+--- !u!114 &755961120177806273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403981137112845946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885a9afa5bb832d4293ab248a9acd341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 3
 --- !u!1001 &4941016533661051067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -223,7 +237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 493350, guid: 46394a87d13cb2f478f84164da470282, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 493350, guid: 46394a87d13cb2f478f84164da470282, type: 3}
       propertyPath: m_LocalPosition.z
@@ -255,6 +269,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 493350, guid: 46394a87d13cb2f478f84164da470282, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19801992, guid: 46394a87d13cb2f478f84164da470282, type: 3}
+      propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

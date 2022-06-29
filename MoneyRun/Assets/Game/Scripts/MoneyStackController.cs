@@ -37,7 +37,7 @@ public class MoneyStackController : MonoBehaviour
         for (var i = 0; i < amount; i++)
         {
             var money = moneyStacks[moneyStacks.Count - 1];
-            DestroyImmediate(money);
+            Destroy(money);
             moneyStacks.RemoveAt(moneyStacks.Count-1);
             UIManager.Instance._scoreText.SetText(GetScore().ToString());
         }

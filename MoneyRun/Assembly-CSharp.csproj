@@ -67,6 +67,7 @@
      <Compile Include="Assets\IgniteCoders\Simple Water Shader\Info\Scripts\Readme.cs" />
      <Compile Include="Assets\Game\Scripts\Interactable.cs" />
      <Compile Include="Assets\Game\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Obstacle.cs" />
      <Compile Include="Assets\Game\Scripts\GameEnd.cs" />
      <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
